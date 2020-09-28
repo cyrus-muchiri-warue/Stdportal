@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgcolor"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:textColorHint="@color/black"
+            android:layout_margin="5dp"
+            android:id="@+id/user"
+            android:hint="username ,cyrus"/>
+        <EditText
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/btnshape"
+            android:id="@+id/program"
+            android:layout_margin="5dp"
+            android:hint="program,e.g bcs"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/black"
+            android:id="@+id/year"
+            android:background="@drawable/btnshape"
+            android:hint="year,e.g 3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/regno"
+            android:layout_marginLeft="80dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btnshape"
+            android:hint="regno ,e.g ct201/0014/16"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/nationalid"
+            android:layout_marginLeft="80dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btnshape"
+            android:hint="national id ,34910104"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btnshape"
+            android:padding="10dp"
+            android:hint="contact,e.g 0792021601"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/black"
+            android:id="@+id/email"
+            android:padding="10dp"
+            android:background="@drawable/btnshape"
+            android:hint="email,e.g cyrus5078@gmail.com"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/password1"
+            android:textColorHint="@color/black"
+            android:hint="password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnshape"
+            android:id="@+id/password2"
+            android:textColorHint="@color/black"
+            android:hint="confirm password"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnSubmit"
+        android:background="@drawable/btnshape"
+        android:layout_marginRight="20dp"
+
+        android:text="submit"/>
+
+
+
+
+</RelativeLayout>

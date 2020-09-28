@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Stdportal</string>
+    <string name="inst_name">meru University</string>
+    <string name="obective">student portal</string>
+    <string name="lognin">login</string>
+    <string name="signup">login</string>
+    <string name="terms">login</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    //signup
+    <string name="signupurl">https://nevon.co.ke/stdportal/signup/signup.php</string>
+    //login
+    <string name="login">https://nevon.co.ke/stdportal/signin/login.php</string>
+
+    //profile url
+    <string name="getProfile">http://localhost/stdportal/signup/getProfile.php?profile=</string>
+
+
+    //events url
+    <string name="getAllevents">https://nevon.co.ke/stdportal/events/getAllevents.php</string>
+    <string name="getEventByid">https://nevon.co.ke/stdportal/events/getEventByid.php</string>
+    <string name="getEventsByVenue">https://nevon.co.ke/stdportal/events/getEventsByVenue.php</string>
+    <string name="geteventbytitle">https://nevon.co.ke/stdportal/events/geteventbytitle.php</string>
+    <string name="geteventsbydate">https://nevon.co.ke/stdportal/events/geteventsbydate.php</string>
+    //fee url
+    <string name="getFeebyRegno">https://nevon.co.ke/stdportal/fee/getFeebyRegno.php</string>
+    //lecturers
+    <string name="getResultslips">https://nevon.co.ke/stdportal/results/getResultslips.php</string>
+    //timetable
+    <string name="getTimetable">https://nevon.co.ke/stdportal/timetable/getTimetable.php</string>
+
+</resources>
